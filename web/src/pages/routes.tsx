@@ -10,8 +10,8 @@ function RoutesApp() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Landing/>}/>
-                <Route path="/study" element={<TeacherForm/>}/>
-                <Route path="/give-classes" element={<TeacherList/>}/>
+                <Route path="/study" element={<TeacherList/>}/>
+                <Route path="/give-classes" element={<TeacherForm/>}/>
             </Routes>   
         </BrowserRouter>
     );
